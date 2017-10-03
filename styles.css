@@ -21,7 +21,7 @@ body {
 }
 
 #floating-square {
-	position: fixed;
-	bottom: 0px;
- 	left: 0px;
+	float: left;
+	width: 150px;
+	height: 150px;
 }
