@@ -1,5 +1,5 @@
 body {
-  position: fixed;
+  position: relative;
 }
 
 #fixed-block {
@@ -9,6 +9,18 @@ body {
 }
 
 #footnotes {
+	position: fixed;
+	bottom: 0px;
+ 	left: 0px;
+}
+
+
+#with-offset {
+	margin-top: 5px;
+	
+}
+
+#floating-square {
 	position: fixed;
 	bottom: 0px;
  	left: 0px;
